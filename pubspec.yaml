@@ -1,0 +1,39 @@
+name: step_counter_pro
+description: Dark themed step counter with Hive storage, charts, and daily goals.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Core
+  pedometer: ^4.0.1
+  permission_handler: ^11.3.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.4
+  provider: ^6.1.2
+
+  # UI
+  fl_chart: ^0.69.0
+  intl: ^0.19.0
+  flutter_launcher_icons: ^0.14.4
+  google_fonts: ^6.3.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
